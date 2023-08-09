@@ -1,0 +1,27 @@
+
+
+body {
+    
+    margin: 0;
+    padding: 0;
+    
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 250px;
+    
+    
+}
+
+.gridplace {
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+}
